@@ -144,12 +144,16 @@ if user_question:
     ]
 
     pii_words = [
-        "pan number",
-        "aadhaar number",
-        "otp",
-        "account number",
-        "phone number"
-    ]
+    "pan number",
+    "pan",
+    "aadhaar number",
+    "aadhaar",
+    "otp",
+    "account number",
+    "phone number",
+    "email",
+    "email address"
+]
 
     comparison_words = [
         "compare returns",
