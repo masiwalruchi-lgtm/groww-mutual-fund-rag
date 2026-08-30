@@ -1,83 +1,71 @@
-What is Groww?
-Groww is an investment platform that allows users to invest in mutual funds, stocks, ETFs, IPOs and other financial products.
-
-What is a mutual fund?
-A mutual fund pools money from many investors and invests it in assets such as stocks, bonds or other securities. It is managed by a professional fund manager.
-
-How can I invest in mutual funds on Groww?
-Users can search for a mutual fund, review its details, choose the investment amount and invest either as a lump sum or through SIP.
+What is Groww Mutual Fund?
+Groww Mutual Fund is an asset management company offering mutual fund schemes in categories such as equity, hybrid, debt, index funds and ETFs.
 
 What is SIP?
-SIP stands for Systematic Investment Plan. It allows investors to invest a fixed amount in a mutual fund at regular intervals, usually every month.
-
-What is a lump sum investment?
-A lump sum investment means investing a larger amount of money in a mutual fund at one time instead of investing regularly through SIP.
+SIP stands for Systematic Investment Plan. It is a way of investing a fixed amount in a mutual fund at regular intervals.
 
 What is NAV?
-NAV stands for Net Asset Value. It represents the per-unit value of a mutual fund and is calculated based on the total value of the fund's assets minus liabilities.
+NAV stands for Net Asset Value. It represents the per-unit value of a mutual fund scheme.
 
 What is an expense ratio?
-The expense ratio is the annual fee charged by a mutual fund for managing the fund. It is deducted from the fund's returns.
+The expense ratio represents expenses charged for managing and operating a mutual fund scheme. Current scheme expense-ratio information should be checked on the official Groww Mutual Fund Expense Ratio page.
 
 What is an exit load?
-Exit load is a fee that may be charged when investors redeem or withdraw money from a mutual fund before a specified period.
+Exit load is a charge that may apply when mutual fund units are redeemed within a specified period. The applicable exit load depends on the scheme and should be verified from its current official scheme document.
 
-Can I stop a SIP on Groww?
-Yes. A SIP can generally be stopped or cancelled from the mutual fund investment section in the Groww app. Stopping future SIP payments does not automatically redeem the units already purchased.
+What is a Riskometer?
+A Riskometer indicates the level of risk associated with a mutual fund scheme. Current Groww Mutual Fund Riskometer disclosures are available on the official Riskometer page.
 
-Can I change my SIP amount?
-Depending on the available options, users may need to stop the existing SIP and start a new SIP with a different amount.
+What is Groww Large Cap Fund?
+Groww Large Cap Fund is an open-ended equity scheme predominantly investing in large-cap stocks.
 
-How can I redeem a mutual fund on Groww?
-Users can open their mutual fund investment, select the redeem option, choose the amount or units they want to redeem and submit the request.
+What does Groww Large Cap Fund mainly invest in?
+Groww Large Cap Fund is a large-cap equity scheme. Its scheme characteristics include investing at least 80% of total assets in large-cap equity stocks.
 
-How long does mutual fund redemption take?
-Redemption time depends on the mutual fund category and the fund house. The amount is generally credited after the redemption request is processed.
+What is Groww ELSS Tax Saver Fund?
+Groww ELSS Tax Saver Fund is an open-ended Equity Linked Savings Scheme.
 
-What is ELSS?
-ELSS stands for Equity Linked Savings Scheme. It is a type of equity mutual fund that has a lock-in period and may provide tax benefits subject to applicable tax rules.
+What is the lock-in period of Groww ELSS Tax Saver Fund?
+Groww ELSS Tax Saver Fund has a statutory lock-in period of three years.
 
-What is a direct mutual fund?
-A direct mutual fund is purchased directly from the fund house without distributor commission. Direct plans usually have a lower expense ratio than regular plans.
+What is Groww Multicap Fund?
+Groww Multicap Fund is one of the active equity schemes offered by Groww Mutual Fund. Current scheme details should be verified from Groww Mutual Fund's official KIM, SID or factsheet.
+
+What is Groww Aggressive Hybrid Fund?
+Groww Aggressive Hybrid Fund is an open-ended hybrid scheme that invests predominantly in equity and equity-related instruments.
+
+What is the asset allocation characteristic of Groww Aggressive Hybrid Fund?
+The scheme characteristics include an equity allocation of 65% to 80% of total assets and a debt allocation of 20% to 35% of total assets.
+
+What is Groww Multi Asset Allocation Fund?
+Groww Multi Asset Allocation Fund is an active hybrid scheme offered by Groww Mutual Fund. Current scheme details should be checked from the official Groww Mutual Fund factsheet or scheme documents.
+
+Where can I check the expense ratio of a Groww Mutual Fund scheme?
+Current expense-ratio information is available on Groww Mutual Fund's official Expense Ratio downloads page.
+
+Where can I check the Riskometer of a Groww Mutual Fund scheme?
+Current Riskometer disclosures are available on Groww Mutual Fund's official Riskometer downloads page.
+
+Where can I find Groww Mutual Fund factsheets?
+Groww Mutual Fund publishes its official factsheets on the Fact Sheet section of its website.
+
+Where can I find Scheme Information Documents?
+Groww Mutual Fund provides scheme documents through its official SID downloads section.
+
+Where can I find Key Information Memorandums?
+Groww Mutual Fund provides Key Information Memorandums for its schemes through its official KIM downloads section.
+
+Where can I find Groww Mutual Fund portfolio disclosures?
+Monthly and fortnightly portfolio disclosures are available through Groww Mutual Fund's statutory portfolio disclosure page.
 
 Are mutual fund returns guaranteed?
-No. Mutual fund returns are not guaranteed. Returns depend on market performance and the investments held by the fund.
+No. Mutual fund investments are market-linked and returns are not guaranteed.
 
-Can I lose money in mutual funds?
-Yes. Mutual funds are market-linked investments, so their value can increase or decrease. Investors should understand the risk before investing.
+Can this chatbot tell me which mutual fund I should buy?
+No. This chatbot provides facts-only educational information and does not provide personalized investment advice, buy/sell recommendations or fund rankings.
 
-What is risk level in mutual funds?
-Mutual funds may have different levels of risk depending on where they invest. Equity funds are generally more volatile than debt-oriented funds.
+Can this chatbot predict mutual fund returns?
+No. This chatbot does not predict or guarantee future returns. Users should refer to official scheme documents for factual scheme information.
 
-What is a mutual fund portfolio?
-A mutual fund portfolio is the collection of securities such as shares, bonds or other assets in which the fund has invested.
-
-What is a fund manager?
-A fund manager is the professional responsible for managing the mutual fund portfolio and making investment decisions according to the fund's objective.
-
-What is KYC?
-KYC stands for Know Your Customer. It is an identity verification process required for financial services and investments.
-
-Why is KYC required for mutual fund investment?
-KYC is required to verify the investor's identity and to comply with financial regulations.
-
-Can I invest in mutual funds without KYC?
-Generally, investors must complete the required KYC process before they can invest in mutual funds.
-
-What is a folio number?
-A folio number is a unique identification number assigned by a mutual fund company to an investor's holdings with that fund house.
-
-What is CAGR?
-CAGR stands for Compound Annual Growth Rate. It shows the average annual rate at which an investment has grown over a period of time.
-
-What is XIRR?
-XIRR is a method used to calculate returns when investments and withdrawals happen on different dates. It is commonly used for SIP investments.
-
-Does Groww guarantee investment returns?
-No. Groww does not guarantee returns from mutual funds because mutual fund performance depends on the market.
-
-Is mutual fund investment suitable for everyone?
-Not necessarily. Suitability depends on a person's goals, investment horizon and risk tolerance.
-
-What should I check before investing in a mutual fund?
-Users should review the fund's objective, risk level, expense ratio, past performance, portfolio, investment horizon and whether it matches their financial goals.
+Can I enter my PAN, Aadhaar or OTP in this chatbot?
+No. Users should not enter PAN, Aadhaar, OTP, account numbers, phone numbers, email addresses or other sensitive personal information.
