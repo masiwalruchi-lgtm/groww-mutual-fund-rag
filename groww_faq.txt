@@ -9,6 +9,8 @@ NAV stands for Net Asset Value. It represents the per-unit value of a mutual fun
 
 What is an expense ratio?
 The expense ratio represents expenses charged for managing and operating a mutual fund scheme. Current scheme expense-ratio information should be checked on the official Groww Mutual Fund Expense Ratio page.
+Source: Groww Mutual Fund - Expense Ratio
+Source URL: https://www.growwmf.in/downloads/expense-ratio
 
 What is an exit load?
 Exit load is a charge that may apply when mutual fund units are redeemed within a specified period. The applicable exit load depends on the scheme and should be verified from its current official scheme document.
