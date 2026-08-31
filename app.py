@@ -38,18 +38,20 @@ def load_knowledge_base():
     with open("groww_faq.txt", "r", encoding="utf-8") as file:
         text = file.read()
 
-    raw_chunks = [chunk.strip() for chunk in text.split("\n\n") if chunk.strip()]
+    raw_chunks = [
+        chunk.strip()
+        for chunk in text.split("\n\n")
+        if chunk.strip()
+    ]
 
     chunks = []
 
     for chunk in raw_chunks:
         source_name = ""
         source_url = ""
-
-        lines = chunk.split("\n")
         content_lines = []
 
-        for line in lines:
+        for line in chunk.split("\n"):
             if line.startswith("Source:"):
                 source_name = line.replace("Source:", "").strip()
             elif line.startswith("Source URL:"):
@@ -57,14 +59,22 @@ def load_knowledge_base():
             else:
                 content_lines.append(line)
 
-        chunks.append({
-            "text": "\n".join(content_lines).strip(),
-            "source_name": source_name,
-            "source_url": source_url
-        })
+        content = "\n".join(content_lines).strip()
+
+        if not content and chunks:
+            if source_name:
+                chunks[-1]["source_name"] = source_name
+            if source_url:
+                chunks[-1]["source_url"] = source_url
+
+        elif content:
+            chunks.append({
+                "text": content,
+                "source_name": source_name,
+                "source_url": source_url
+            })
 
     return chunks
-
 
 chunks = load_knowledge_base()
 
