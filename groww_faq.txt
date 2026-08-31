@@ -1,11 +1,17 @@
 What is Groww Mutual Fund?
 Groww Mutual Fund is an asset management company offering mutual fund schemes in categories such as equity, hybrid, debt, index funds and ETFs.
+Source: Groww Mutual Fund - Official Website
+Source URL: https://www.growwmf.in/
 
 What is SIP?
 SIP stands for Systematic Investment Plan. It is a way of investing a fixed amount in a mutual fund at regular intervals.
+Source: AMFI - Investor Education
+Source URL: https://www.amfiindia.com/
 
 What is NAV?
 NAV stands for Net Asset Value. It represents the per-unit value of a mutual fund scheme.
+Source: AMFI - Investor Education
+Source URL: https://www.amfiindia.com/
 
 What is an expense ratio?
 The expense ratio represents expenses charged for managing and operating a mutual fund scheme. Current scheme expense-ratio information should be checked on the official Groww Mutual Fund Expense Ratio page.
@@ -14,12 +20,19 @@ Source URL: https://www.growwmf.in/downloads/expense-ratio
 
 What is an exit load?
 Exit load is a charge that may apply when mutual fund units are redeemed within a specified period. The applicable exit load depends on the scheme and should be verified from its current official scheme document.
+Source: SEBI Investor - Exit Load
+Source URL: https://investor.sebi.gov.in/exit_load.html
 
 What is a Riskometer?
 A Riskometer indicates the level of risk associated with a mutual fund scheme. Current Groww Mutual Fund Riskometer disclosures are available on the official Riskometer page.
+Source: Groww Mutual Fund - Riskometer
+Source URL: https://www.growwmf.in/downloads/riskometer
+
 
 What is Groww Large Cap Fund?
 Groww Large Cap Fund is an open-ended equity scheme predominantly investing in large-cap stocks.
+Source: Groww Mutual Fund - Official KIM
+Source URL: https://partner.growwmf.in/downloads/kim
 
 What is the minimum SIP amount for Groww Large Cap Fund?
 The minimum SIP amount for Groww Large Cap Fund Direct Growth is ₹500.
@@ -28,53 +41,82 @@ Source URL: https://www.growwmf.in/mutual-funds/groww-large-cap-fund-direct-grow
 
 What does Groww Large Cap Fund mainly invest in?
 Groww Large Cap Fund is a large-cap equity scheme. Its scheme characteristics include investing at least 80% of total assets in large-cap equity stocks.
+Source: Groww Mutual Fund - Official KIM
+Source URL: https://partner.growwmf.in/downloads/kim
 
 What is Groww ELSS Tax Saver Fund?
 Groww ELSS Tax Saver Fund is an open-ended Equity Linked Savings Scheme.
-
+Source: Groww Mutual Fund - Official KIM
+Source URL: https://partner.growwmf.in/downloads/kim
 
 What is Groww Value Fund?
 Groww Value Fund is an open-ended equity scheme following a value investment strategy. It invests a minimum of 65% of its total assets in equity as part of its value investment strategy.
+Source: Groww Mutual Fund - Official Fact Sheet
+Source URL: https://www.growwmf.in/downloads/fact-sheet
+
 
 Source URL: https://www.growwmf.in/downloads/fact-sheet
 
 What is Groww Aggressive Hybrid Fund?
 Groww Aggressive Hybrid Fund is an open-ended hybrid scheme that invests predominantly in equity and equity-related instruments.
+Source: Groww Mutual Fund - Official KIM
+Source URL: https://partner.growwmf.in/downloads/kim
 
 What is the asset allocation characteristic of Groww Aggressive Hybrid Fund?
 The scheme characteristics include an equity allocation of 65% to 80% of total assets and a debt allocation of 20% to 35% of total assets.
-
+Source: Groww Mutual Fund - Official KIM
+Source URL: https://partner.growwmf.in/downloads/kim
 
 
 Where can I check the expense ratio of a Groww Mutual Fund scheme?
 Current expense-ratio information is available on Groww Mutual Fund's official Expense Ratio downloads page.
+Source: Groww Mutual Fund - Expense Ratio
+Source URL: https://www.growwmf.in/downloads/expense-ratio
 
 Where can I check the Riskometer of a Groww Mutual Fund scheme?
 Current Riskometer disclosures are available on Groww Mutual Fund's official Riskometer downloads page.
+Source: Groww Mutual Fund - Riskometer
+Source URL: https://www.growwmf.in/downloads/riskometer
 
 Where can I find Groww Mutual Fund factsheets?
 Groww Mutual Fund publishes its official factsheets on the Fact Sheet section of its website.
+Source: Groww Mutual Fund - Official Fact Sheets
+Source URL: https://www.growwmf.in/downloads/fact-sheet
 
 Where can I find Scheme Information Documents?
 Groww Mutual Fund provides scheme documents through its official SID downloads section.
+Source: Groww Mutual Fund - SID
+Source URL: https://www.growwmf.in/downloads/sid
 
 Where can I find Key Information Memorandums?
 Groww Mutual Fund provides Key Information Memorandums for its schemes through its official KIM downloads section.
+Source: Groww Mutual Fund - KIM
+Source URL: https://partner.growwmf.in/downloads/kim
 
 Where can I find Groww Mutual Fund portfolio disclosures?
 Monthly and fortnightly portfolio disclosures are available through Groww Mutual Fund's statutory portfolio disclosure page.
+Source: Groww Mutual Fund - Portfolio Disclosures
+Source URL: https://www.growwmf.in/statutory-disclosure/portfolio
 
 Are mutual fund returns guaranteed?
 No. Mutual fund investments are market-linked and returns are not guaranteed.
+Source: SEBI - Mutual Fund Investor Education
+Source URL: https://investor.sebi.gov.in/pdf/reference-material/MFunds.pdf
 
 Can this chatbot tell me which mutual fund I should buy?
 No. This chatbot provides facts-only educational information and does not provide personalized investment advice, buy/sell recommendations or fund rankings.
+Source: SEBI - Mutual Fund Investor Education
+Source URL: https://investor.sebi.gov.in/pdf/reference-material/MFunds.pdf
 
 Can this chatbot predict mutual fund returns?
 No. This chatbot does not predict or guarantee future returns. Users should refer to official scheme documents for factual scheme information.
+Source: Groww Mutual Fund - Official Fact Sheets
+Source URL: https://www.growwmf.in/downloads/fact-sheet
 
 Can I enter my PAN, Aadhaar or OTP in this chatbot?
 No. Users should not enter PAN, Aadhaar, OTP, account numbers, phone numbers, email addresses or other sensitive personal information.
+Source: Groww Mutual Fund - Official Website
+Source URL: https://www.growwmf.in/
 
 How can I get my mutual fund Consolidated Account Statement (CAS)?
 Investors can access their Consolidated Account Statement through official mutual fund industry platforms such as CAMS, KFintech or MFCentral. Never share your PAN, Aadhaar, OTP, account number, email address or phone number with this chatbot.
