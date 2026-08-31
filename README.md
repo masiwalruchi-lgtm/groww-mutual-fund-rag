@@ -12,13 +12,14 @@ Groww Mutual Fund
 
 ## Scope
 
-The project focuses on Groww Mutual Fund as the AMC and covers the following five schemes:
+The project focuses on Groww Mutual Fund as the AMC and covers the following four schemes:
 
 1. Groww Large Cap Fund
-2. Groww ELSS Tax Saver Fund
-3. Groww Multicap Fund
+2. Groww Value Fund
+3. Groww ELSS Tax Saver Fund
 4. Groww Aggressive Hybrid Fund
-5. Groww Multi Asset Allocation Fund
+
+
 
 The chatbot can answer factual questions about topics such as SIP, NAV, expense ratio, exit load, ELSS lock-in, Riskometer, scheme characteristics and official scheme documents.
 
