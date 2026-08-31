@@ -38,11 +38,30 @@ def load_knowledge_base():
     with open("groww_faq.txt", "r", encoding="utf-8") as file:
         text = file.read()
 
-    chunks = [
-        chunk.strip()
-        for chunk in text.split("\n\n")
-        if chunk.strip()
-    ]
+    raw_chunks = [chunk.strip() for chunk in text.split("\n\n") if chunk.strip()]
+
+    chunks = []
+
+    for chunk in raw_chunks:
+        source_name = ""
+        source_url = ""
+
+        lines = chunk.split("\n")
+        content_lines = []
+
+        for line in lines:
+            if line.startswith("Source:"):
+                source_name = line.replace("Source:", "").strip()
+            elif line.startswith("Source URL:"):
+                source_url = line.replace("Source URL:", "").strip()
+            else:
+                content_lines.append(line)
+
+        chunks.append({
+            "text": "\n".join(content_lines).strip(),
+            "source_name": source_name,
+            "source_url": source_url
+        })
 
     return chunks
 
@@ -52,7 +71,9 @@ chunks = load_knowledge_base()
 
 @st.cache_resource
 def create_vector_index(chunks):
-    embeddings = model.encode(chunks)
+    texts = [chunk["text"] for chunk in chunks]
+
+    embeddings = model.encode(texts)
     embeddings = np.array(embeddings).astype("float32")
 
     dimension = embeddings.shape[1]
@@ -68,20 +89,26 @@ index = create_vector_index(chunks)
 
 def retrieve_context(question, top_k=3):
     question_embedding = model.encode([question])
-    question_embedding = np.array(
-        question_embedding
-    ).astype("float32")
+    question_embedding = np.array(question_embedding).astype("float32")
 
     distances, indices = index.search(
         question_embedding,
         top_k
     )
 
-    retrieved_chunks = [
-        chunks[i] for i in indices[0]
-    ]
+    retrieved_chunks = [chunks[i] for i in indices[0]]
 
-    return "\n\n".join(retrieved_chunks)
+    context = "\n\n".join(
+        chunk["text"] for chunk in retrieved_chunks
+    )
+
+    best_chunk = retrieved_chunks[0]
+
+    return (
+        context,
+        best_chunk["source_name"],
+        best_chunk["source_url"]
+    )
 
 
 def get_source(question):
@@ -171,10 +198,10 @@ if user_question:
 
         st.subheader("Answer")
         st.write(
+           
             "Please do not share personal or sensitive information. "
-            "This chatbot does not require PAN, Aadhaar, OTP, "
-            "account numbers or phone numbers."
-        )
+"This chatbot does not require PAN, Aadhaar, OTP, "
+"account numbers, phone numbers or email addresses."
 
         st.markdown(
             f"*Source:* [{source_name}]({source_url})"
@@ -190,8 +217,9 @@ if user_question:
         )
 
         st.markdown(
-            f"*Educational source:* [{source_name}]({source_url})"
-        )
+    "*Educational source:* [SEBI - Mutual Funds Investor Education]"
+    "(https://investor.sebi.gov.in/pdf/reference-material/MFunds.pdf)"
+)
 
     elif any(word in question_lower for word in comparison_words):
 
@@ -202,7 +230,9 @@ if user_question:
         )
 
         st.markdown(
-            f"*Source:* [{source_name}]({source_url})"
+    "*Source:* [Groww Mutual Fund - Official Fact Sheets]"
+    "(https://www.growwmf.in/downloads/fact-sheet)"
+)
         )
 
     elif not api_key:
@@ -214,7 +244,7 @@ if user_question:
 
     else:
 
-        context = retrieve_context(
+        context, source_name, source_url = retrieve_context(
             user_question
         )
 
@@ -223,7 +253,14 @@ if user_question:
         )
 
         prompt = f"""
-You are a facts-only assistant for Groww mutual fund FAQs.
+You are a facts-only assistant for Groww Mutual Fund FAQs.
+
+Scope:
+- Groww Large Cap Fund
+- Groww Value Fund
+- Groww ELSS Tax Saver Fund
+- Groww Aggressive Hybrid Fund
+- General mutual fund educational questions included in the knowledge base
 
 Answer only from the provided context.
 
@@ -231,15 +268,17 @@ Rules:
 - Give factual educational information only.
 - Do not give investment advice.
 - Do not recommend buying or selling funds.
-- Do not predict or guarantee returns.
+- Do not predict, rank or compare returns.
+- Do not ask for, repeat or expose PAN, Aadhaar, OTP, account number, phone number or email address.
 - Keep the answer to a maximum of 3 sentences.
+- If the question is about another scheme outside the selected scope, say that the scheme is outside this chatbot's current knowledge base.
 - If the answer is unavailable, say:
 "I could not find this information in the Groww FAQ knowledge base."
 
 Context:
 {context}
 
-User Question:
+Question:
 {user_question}
 """
 
@@ -263,7 +302,7 @@ User Question:
         )
 
         st.caption(
-            "Last updated from sources: 30 August 2026"
+            "Last updated from sources: 31 August 2026"
         )
 
         with st.expander(
