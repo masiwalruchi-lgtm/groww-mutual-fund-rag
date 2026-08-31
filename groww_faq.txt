@@ -25,11 +25,11 @@ Groww Large Cap Fund is a large-cap equity scheme. Its scheme characteristics in
 What is Groww ELSS Tax Saver Fund?
 Groww ELSS Tax Saver Fund is an open-ended Equity Linked Savings Scheme.
 
-What is the lock-in period of Groww ELSS Tax Saver Fund?
-Groww ELSS Tax Saver Fund has a statutory lock-in period of three years.
 
-What is Groww Multicap Fund?
-Groww Multicap Fund is one of the active equity schemes offered by Groww Mutual Fund. Current scheme details should be verified from Groww Mutual Fund's official KIM, SID or factsheet.
+What is Groww Value Fund?
+Groww Value Fund is an open-ended equity scheme following a value investment strategy. It invests a minimum of 65% of its total assets in equity as part of its value investment strategy.
+
+Source URL: https://www.growwmf.in/downloads/fact-sheet
 
 What is Groww Aggressive Hybrid Fund?
 Groww Aggressive Hybrid Fund is an open-ended hybrid scheme that invests predominantly in equity and equity-related instruments.
@@ -37,8 +37,7 @@ Groww Aggressive Hybrid Fund is an open-ended hybrid scheme that invests predomi
 What is the asset allocation characteristic of Groww Aggressive Hybrid Fund?
 The scheme characteristics include an equity allocation of 65% to 80% of total assets and a debt allocation of 20% to 35% of total assets.
 
-What is Groww Multi Asset Allocation Fund?
-Groww Multi Asset Allocation Fund is an active hybrid scheme offered by Groww Mutual Fund. Current scheme details should be checked from the official Groww Mutual Fund factsheet or scheme documents.
+
 
 Where can I check the expense ratio of a Groww Mutual Fund scheme?
 Current expense-ratio information is available on Groww Mutual Fund's official Expense Ratio downloads page.
@@ -69,3 +68,51 @@ No. This chatbot does not predict or guarantee future returns. Users should refe
 
 Can I enter my PAN, Aadhaar or OTP in this chatbot?
 No. Users should not enter PAN, Aadhaar, OTP, account numbers, phone numbers, email addresses or other sensitive personal information.
+
+How can I get my mutual fund Consolidated Account Statement (CAS)?
+Investors can access their Consolidated Account Statement through official mutual fund industry platforms such as CAMS, KFintech or MFCentral. Never share your PAN, Aadhaar, OTP, account number, email address or phone number with this chatbot.
+
+Source: AMFI - Consolidated Account Statement
+Source URL: https://www.amfiindia.com/online-center/download-cas
+
+What is the benchmark of Groww Large Cap Fund?
+The benchmark of Groww Large Cap Fund is NIFTY 100 - TRI.
+
+Source: Groww Mutual Fund Official KIM
+Source URL: https://assets-netstorage.growwmf.in/compliance_docs/Downloads/KIM/KIM_Groww%20Largecap%20Fund.pdf
+
+What is the Riskometer level of Groww Large Cap Fund?
+The Scheme Risk-o-meter of Groww Large Cap Fund is currently at Very High Risk.
+
+Source: Groww Mutual Fund Official KIM
+Source URL: https://assets-netstorage.growwmf.in/compliance_docs/Downloads/KIM/KIM_Groww%20Largecap%20Fund.pdf
+
+What is the Riskometer level of Groww Value Fund?
+The Scheme Risk-o-meter of Groww Value Fund is at Very High Risk.
+
+Source: Groww Mutual Fund Official KIM
+Source URL: https://assets-netstorage.growwmf.in/compliance_docs/Downloads/KIM/KIM_Groww%20Value%20Fund.pdf
+
+What is the lock-in period of Groww ELSS Tax Saver Fund?
+Groww ELSS Tax Saver Fund has a statutory lock-in period of 3 years.
+
+Source: Groww Mutual Fund Official KIM
+Source URL: https://assets-netstorage.growwmf.in/compliance_docs/Downloads/KIM/KIM_Groww%20ELSS%20Tax%20Saver%20Fund.pdf
+
+What is the Riskometer level of Groww ELSS Tax Saver Fund?
+The Scheme Risk-o-meter of Groww ELSS Tax Saver Fund is at Very High Risk.
+
+Source: Groww Mutual Fund Official KIM
+Source URL: https://assets-netstorage.growwmf.in/compliance_docs/Downloads/KIM/KIM_Groww%20ELSS%20Tax%20Saver%20Fund.pdf
+
+What is the Riskometer level of Groww Aggressive Hybrid Fund?
+The Scheme Risk-o-meter of Groww Aggressive Hybrid Fund is at Very High Risk.
+
+Source: Groww Mutual Fund Official KIM
+Source URL: https://assets-netstorage.growwmf.in/compliance_docs/Downloads/KIM/KIM_Groww%20Aggresive%20Hybrid%20Fund.pdf
+
+What is the Tier-I benchmark of Groww Aggressive Hybrid Fund?
+The Tier-I benchmark stated in the official KIM is CRISIL Hybrid 35+65 - Aggressive Index.
+
+Source: Groww Mutual Fund Official KIM
+Source URL: https://assets-netstorage.growwmf.in/compliance_docs/Downloads/KIM/KIM_Groww%20Aggresive%20Hybrid%20Fund.pdf
