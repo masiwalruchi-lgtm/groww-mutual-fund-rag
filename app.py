@@ -5,23 +5,202 @@ import numpy as np
 from groq import Groq
 
 st.set_page_config(
-    page_title="Groww Mutual Fund RAG",
-    page_icon="📈"
+    page_title="Groww Mutual Fund FAQ Assistant",
+    page_icon="📈",
+    layout="centered"
 )
 
-st.title("📈 Groww Mutual Fund RAG Chatbot")
-st.write("Ask factual questions about mutual funds and Groww.")
+st.markdown(
+    """
+    <style>
+    /* Main background */
+    [data-testid="stAppViewContainer"] {
+        background: #07111f;
+        color: #f4f7fb;
+    }
 
-st.info("Facts-only. No investment advice.")
+    [data-testid="stHeader"] {
+        background: rgba(0,0,0,0);
+    }
 
-st.write("*Example questions:*")
-st.write("• What is SIP?")
-st.write("• What is an expense ratio?")
-st.write("• What is ELSS?")
+    .block-container {
+        max-width: 900px;
+        padding-top: 2.5rem;
+        padding-bottom: 3rem;
+    }
 
-st.caption(
-    "Please do not enter PAN, Aadhaar, OTP, account number, "
-    "email address or phone number."
+    /* Header */
+    .hero-card {
+        background: linear-gradient(135deg, #101d33, #13263f);
+        border: 1px solid #263b58;
+        border-radius: 22px;
+        padding: 34px 32px;
+        margin-bottom: 18px;
+        box-shadow: 0 12px 35px rgba(0,0,0,0.22);
+    }
+
+    .hero-title {
+        font-size: 2.6rem;
+        font-weight: 800;
+        color: #ffffff;
+        margin-bottom: 8px;
+        line-height: 1.15;
+    }
+
+    .hero-subtitle {
+        font-size: 1.15rem;
+        color: #aebbd0;
+        margin: 0;
+    }
+
+    /* Warning */
+    .warning-box {
+        background: #211b12;
+        border: 1px solid #795b20;
+        border-left: 5px solid #f2c14e;
+        color: #f7cf68;
+        border-radius: 14px;
+        padding: 18px 20px;
+        margin: 18px 0 22px 0;
+        font-size: 1rem;
+        line-height: 1.55;
+    }
+
+    /* Scope */
+    .scope-box {
+        background: #101a2b;
+        border: 1px solid #2a3950;
+        border-radius: 13px;
+        padding: 15px 18px;
+        color: #cbd5e5;
+        margin-bottom: 22px;
+        font-weight: 600;
+    }
+
+    /* Example questions */
+    .questions-card {
+        background: #101a2b;
+        border: 1px solid #273851;
+        border-radius: 20px;
+        padding: 24px;
+        margin-bottom: 25px;
+    }
+
+    .questions-title {
+        font-size: 1.25rem;
+        font-weight: 750;
+        color: white;
+        margin-bottom: 16px;
+    }
+
+    .question-item {
+        background: #0c1626;
+        border: 1px solid #263750;
+        color: #b8c3d4;
+        padding: 16px 18px;
+        border-radius: 13px;
+        margin: 10px 0;
+        line-height: 1.45;
+    }
+
+    /* Input */
+    div[data-testid="stTextInput"] input {
+        background: #101a2b !important;
+        color: white !important;
+        border: 1px solid #31435f !important;
+        border-radius: 13px !important;
+        min-height: 54px;
+    }
+
+    div[data-testid="stTextInput"] input::placeholder {
+        color: #7f8ba0 !important;
+    }
+
+    /* Button */
+    div[data-testid="stFormSubmitButton"] button {
+        background: #0f8f72;
+        color: white;
+        border: none;
+        border-radius: 13px;
+        min-height: 52px;
+        font-weight: 700;
+        width: 100%;
+    }
+
+    div[data-testid="stFormSubmitButton"] button:hover {
+        background: #12a383;
+        color: white;
+    }
+
+    /* Answer area */
+    h2, h3 {
+        color: #ffffff !important;
+    }
+
+    a {
+        color: #55c8ac !important;
+    }
+
+    /* Footer */
+    .footer-box {
+        margin-top: 35px;
+        background: #101a2b;
+        border-top: 1px solid #293a52;
+        padding: 20px;
+        border-radius: 15px;
+        color: #98a6bb;
+        font-size: 0.92rem;
+        line-height: 1.55;
+    }
+
+    @media (max-width: 600px) {
+        .hero-title {
+            font-size: 2rem;
+        }
+
+        .hero-card {
+            padding: 26px 20px;
+        }
+
+        .questions-card {
+            padding: 18px;
+        }
+    }
+    </style>
+
+    <div class="hero-card">
+        <div class="hero-title">Groww Mutual Fund FAQ Assistant</div>
+        <p class="hero-subtitle">
+            Facts-only mutual fund information. No investment advice.
+        </p>
+    </div>
+
+    <div class="warning-box">
+        ⚠️ <b>Do not enter PAN, Aadhaar, OTPs, account numbers,
+        phone numbers, email addresses, or other personal/account information.</b>
+    </div>
+
+    <div class="scope-box">
+        ▾ &nbsp; Covers 4 Groww Mutual Fund schemes
+    </div>
+
+    <div class="questions-card">
+        <div class="questions-title">Try asking</div>
+
+        <div class="question-item">
+            What is the minimum SIP amount for Groww Large Cap Fund?
+        </div>
+
+        <div class="question-item">
+            What is the lock-in period of Groww ELSS Tax Saver Fund?
+        </div>
+
+        <div class="question-item">
+            What is the Riskometer level of Groww Value Fund?
+        </div>
+    </div>
+    """,
+    unsafe_allow_html=True
 )
 
 
@@ -162,9 +341,16 @@ def get_source(question):
 
 api_key = st.secrets.get("GROQ_API_KEY", "")
 
-user_question = st.text_input(
-    "Ask your question"
-)
+with st.form("question_form"):
+    user_question = st.text_input(
+        "Ask a factual question",
+        placeholder="Ask a factual question about the four Groww schemes..."
+    )
+
+    ask_button = st.form_submit_button("Ask")
+
+if not ask_button:
+    user_question = ""
 
 
 if user_question:
