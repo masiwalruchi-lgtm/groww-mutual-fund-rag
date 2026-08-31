@@ -35,10 +35,12 @@ No. Mutual fund schemes are market-linked investments and are not guaranteed or 
 
 Source: https://www.amfiindia.com/investor/knowledge-center-info?zoneName=riskInMutualFunds
 
-## 8. What is KYC?
-KYC stands for Know Your Customer. KYC is a mandatory process for investing in mutual funds.
+## 8. What is the minimum SIP amount for Groww Large Cap Fund?
+The minimum SIP amount for Groww Large Cap Fund Direct Growth is ₹500.
 
-Source: https://www.amfiindia.com/kyc
+Source: https://www.growwmf.in/mutual-funds/groww-large-cap-fund-direct-growth
+
+
 
 ## 9. What is Groww Large Cap Fund?
 Groww Large Cap Fund is an active mutual fund scheme offered by Groww Mutual Fund. Current scheme information is available through Groww Mutual Fund's official KIM.
