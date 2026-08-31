@@ -8,10 +8,10 @@ AMC: Groww Asset Management Limited
 
 Selected schemes:
 1. Groww Large Cap Fund
-2. Groww ELSS Tax Saver Fund
-3. Groww Multicap Fund
+2. Groww Value Fund
+3. Groww ELSS Tax Saver Fund
 4. Groww Aggressive Hybrid Fund
-5. Groww Multi Asset Allocation Fund
+
 
 ## Official Public Sources
 
@@ -59,6 +59,19 @@ https://investor.sebi.gov.in/
 
 15. SEBI – Mutual Fund Investor Education
 https://www.sebi.gov.in/sebi_data/commondocs/siep_h.html
+
+
+16. Groww ELSS Tax Saver Fund - Official KIM
+https://assets-netstorage.growwmf.in/compliance_docs/Downloads/KIM/KIM_Groww%20ELSS%20Tax%20Saver%20Fund.pdf
+
+17. Groww ELSS Tax Saver Fund - Official SID
+https://assets-netstorage.growwmf.in/compliance_docs/Downloads/SID/Groww%20ELSS%20Tax%20Saver%20Fund.pdf
+
+18. AMFI - Consolidated Account Statement (CAS)
+https://www.amfiindia.com/online-center/download-cas
+
+19. SEBI Investor - Exit Load
+https://investor.sebi.gov.in/exit_load.html
 
 ## Source Policy
 
