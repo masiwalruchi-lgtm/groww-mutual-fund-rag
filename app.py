@@ -185,20 +185,12 @@ st.markdown(
     </div>
 
     <div class="questions-card">
-        <div class="questions-title">Try asking</div>
-
-        <div class="question-item">
-            What is the minimum SIP amount for Groww Large Cap Fund?
-        </div>
-
-        <div class="question-item">
-            What is the lock-in period of Groww ELSS Tax Saver Fund?
-        </div>
-
-        <div class="question-item">
-            What is the Riskometer level of Groww Value Fund?
-        </div>
-    </div>
+<div class="questions-title">Try asking</div>
+<p class="question-item">What is the minimum SIP amount for Groww Large Cap Fund?</p>
+<p class="question-item">What is the lock-in period of Groww ELSS Tax Saver Fund?</p>
+<p class="question-item">What is the Riskometer level of Groww Value Fund?</p>
+<p class="question-item">What does Groww Aggressive Hybrid Fund mainly invest in?</p>
+</div>
     """,
     unsafe_allow_html=True
 )
