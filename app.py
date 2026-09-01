@@ -3,6 +3,7 @@ from sentence_transformers import SentenceTransformer
 import faiss
 import numpy as np
 from groq import Groq
+import textwrap
 
 st.set_page_config(
     page_title="Groww Mutual Fund FAQ Assistant",
@@ -11,6 +12,7 @@ st.set_page_config(
 )
 
 st.markdown(
+    textwrap.dedent(
     """
     <style>
     /* Main background */
@@ -191,7 +193,7 @@ st.markdown(
 <p class="question-item">What is the Riskometer level of Groww Value Fund?</p>
 <p class="question-item">What does Groww Aggressive Hybrid Fund mainly invest in?</p>
 </div>
-    """,
+    """),
     unsafe_allow_html=True
 )
 
