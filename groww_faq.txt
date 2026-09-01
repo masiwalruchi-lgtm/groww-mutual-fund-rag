@@ -34,6 +34,11 @@ Groww Large Cap Fund is an open-ended equity scheme predominantly investing in l
 Source: Groww Mutual Fund - Official KIM
 Source URL: https://partner.growwmf.in/downloads/kim
 
+What is the benchmark of Groww Large Cap Fund?
+The benchmark of Groww Large Cap Fund is NIFTY 100 - TRI.
+Source: Groww Mutual Fund Official KIM
+Source URL: https://assets-netstorage.growwmf.in/compliance_docs/Downloads/KIM/KIM_Groww%20Largecap%20Fund.pdf
+
 What is the minimum SIP amount for Groww Large Cap Fund?
 The minimum SIP amount for Groww Large Cap Fund Direct Growth is ₹500.
 Source: Groww Mutual Fund - Groww Large Cap Fund Direct Growth
@@ -55,7 +60,7 @@ Source: Groww Mutual Fund - Official Fact Sheet
 Source URL: https://www.growwmf.in/downloads/fact-sheet
 
 
-Source URL: https://www.growwmf.in/downloads/fact-sheet
+
 
 What is Groww Aggressive Hybrid Fund?
 Groww Aggressive Hybrid Fund is an open-ended hybrid scheme that invests predominantly in equity and equity-related instruments.
@@ -124,11 +129,7 @@ Investors can access their Consolidated Account Statement through official mutua
 Source: AMFI - Consolidated Account Statement
 Source URL: https://www.amfiindia.com/online-center/download-cas
 
-What is the benchmark of Groww Large Cap Fund?
-The benchmark of Groww Large Cap Fund is NIFTY 100 - TRI.
 
-Source: Groww Mutual Fund Official KIM
-Source URL: https://assets-netstorage.growwmf.in/compliance_docs/Downloads/KIM/KIM_Groww%20Largecap%20Fund.pdf
 
 What is the Riskometer level of Groww Large Cap Fund?
 The Scheme Risk-o-meter of Groww Large Cap Fund is currently at Very High Risk.
