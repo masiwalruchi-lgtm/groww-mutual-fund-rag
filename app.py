@@ -170,33 +170,47 @@ st.markdown(
     }
     </style>
 
-    <div class="hero-card">
-        <div class="hero-title">Groww Mutual Fund FAQ Assistant</div>
-        <p class="hero-subtitle">
-            Facts-only mutual fund information. No investment advice.
-        </p>
-    </div>
-
-    <div class="warning-box">
-        ⚠️ <b>Do not enter PAN, Aadhaar, OTPs, account numbers,
-        phone numbers, email addresses, or other personal/account information.</b>
-    </div>
-
-    <div class="scope-box">
-        ▾ &nbsp; Covers 4 Groww Mutual Fund schemes
-    </div>
-
-    <div class="questions-card">
-<div class="questions-title">Try asking</div>
-<p class="question-item">What is the minimum SIP amount for Groww Large Cap Fund?</p>
-<p class="question-item">What is the lock-in period of Groww ELSS Tax Saver Fund?</p>
-<p class="question-item">What is the Riskometer level of Groww Value Fund?</p>
-<p class="question-item">What does Groww Aggressive Hybrid Fund mainly invest in?</p>
-</div>
+    
     """),
     unsafe_allow_html=True
 )
 
+st.markdown(
+    '<div class="hero-card"><div class="hero-title">Groww Mutual Fund FAQ Assistant</div><p class="hero-subtitle">Facts-only mutual fund information. No investment advice.</p></div>',
+    unsafe_allow_html=True
+)
+st.markdown(
+    '<div class="warning-box">⚠️ <b>Do not enter PAN, Aadhaar, OTPs, account numbers, phone numbers, email addresses, or other personal/account information.</b></div>',
+    unsafe_allow_html=True
+)
+st.markdown(
+    '<div class="scope-box">✓ &nbsp; Covers 4 Groww Mutual Fund schemes</div>',
+    unsafe_allow_html=True
+)
+st.markdown(
+    '<div class="questions-title">Try asking</div>',
+    unsafe_allow_html=True
+)
+
+st.markdown(
+    '<div class="question-item">What is the minimum SIP amount for Groww Large Cap Fund?</div>',
+    unsafe_allow_html=True
+)
+
+st.markdown(
+    '<div class="question-item">What is the lock-in period of Groww ELSS Tax Saver Fund?</div>',
+    unsafe_allow_html=True
+)
+
+st.markdown(
+    '<div class="question-item">What is the Riskometer level of Groww Value Fund?</div>',
+    unsafe_allow_html=True
+)
+
+st.markdown(
+    '<div class="question-item">What does Groww Aggressive Hybrid Fund mainly invest in?</div>',
+    unsafe_allow_html=True
+)
 
 @st.cache_resource
 def load_model():
