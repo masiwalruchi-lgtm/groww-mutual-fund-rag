@@ -284,7 +284,7 @@ def create_vector_index(chunks):
 index = create_vector_index(chunks)
 
 
-def retrieve_context(question, top_k=3):
+def retrieve_context(question, top_k=5):
     question_embedding = model.encode([question])
     question_embedding = np.array(question_embedding).astype("float32")
 
